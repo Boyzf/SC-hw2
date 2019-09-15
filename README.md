@@ -12,9 +12,8 @@
 
 ## 设置环境变量
 
-用指令“sudo vim ~/.bashrc”打开bashrc文件，在文件末尾输入以下指令
-
-export GOPATH=~/go_workspace # 工作包的位置
+用指令“sudo vim ~/.bashrc”打开bashrc文件，在文件末尾输入以下指令 -p
+export GOPATH=~/go_workspace # 工作包的位置 -p
 export PATH=$PATH:$GOPATH/bin
 
 ## 完成第一个程序
