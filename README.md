@@ -2,18 +2,19 @@
 ## 安装vscode
 
 在ubuntu的应用商店中找到vscode，直接下载即可。
-！[]()
+![]()
 
 ## 安装golang
 
 在终端输入命令“sudo apt-get install golang”即可安装golang。
 使用命令“go version”即可检验是否安装成功。
-！[]()
+![]()
 
 ## 设置环境变量
 
-用指令“sudo vim ~/.bashrc”打开bashrc文件，在文件末尾输入以下指令 -p
-export GOPATH=~/go_workspace # 工作包的位置 -p
+用指令“sudo vim ~/.bashrc”打开bashrc文件，在文件末尾输入以下指令
+
+export GOPATH=~/go_workspace # 工作包的位置  
 export PATH=$PATH:$GOPATH/bin
 
 ## 完成第一个程序
@@ -22,13 +23,13 @@ export PATH=$PATH:$GOPATH/bin
 在目录中选择包路径：$ mkdir $GOPATH/src/github.com/user/hello
 
 创建 hello.go 文件
-！[]()
+![]()
 
 输入以下代码：
-！[]（）
+![]（）
 
 运行代码，结果如下：
-！[]()
+![]()
 
 go 工具构建并安装此程序了:
 ![]()
