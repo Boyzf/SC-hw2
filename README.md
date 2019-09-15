@@ -12,7 +12,7 @@
 
 ## 设置环境变量
 
-用指令“sudo vim ~/.bashrc”打开bashrc文件，在文件末尾输入以下指令
+用指令“sudo vim ~/.bashrc”打开bashrc文件，在文件末尾输入以下指令：
 
 export GOPATH=~/go_workspace # 工作包的位置  
 export PATH=$PATH:$GOPATH/bin
@@ -59,5 +59,6 @@ go 工具构建并安装此程序了:
 ## 远程包
 
 运行以下指令即可：
+
 $ go get github.com/golang/example/hello  
 $ $GOPATH/bin/hello
