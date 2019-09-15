@@ -19,14 +19,14 @@ export PATH=$PATH:$GOPATH/bin
 
 ## 完成第一个程序
 
-创建一个目录：$ mkdir -p $GOPATH/src/github.com/user
+创建一个目录：$ mkdir -p $GOPATH/src/github.com/user  
 在目录中选择包路径：$ mkdir $GOPATH/src/github.com/user/hello
 
 创建 hello.go 文件
 ![]()
 
 输入以下代码：
-![]（）
+![]()
 
 运行代码，结果如下：
 ![]()
@@ -59,5 +59,5 @@ go 工具构建并安装此程序了:
 ## 远程包
 
 运行以下指令即可：
-$ go get github.com/golang/example/hello
+$ go get github.com/golang/example/hello  
 $ $GOPATH/bin/hello
